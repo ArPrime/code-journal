@@ -1,3 +1,14 @@
+# Given two strings s and t, return true if t is an anagram of s, and false otherwise.
+
+ 
+
+# Example 1:
+
+# Input: s = "anagram", t = "nagaram"
+
+# Output: true
+
+
 def _count_char(string: str) -> dict:
     char_count = {}
     for char in string:
