@@ -1,12 +1,14 @@
-# Given two strings s and t, return true if t is an anagram of s, and false otherwise.
+'''
+Given two strings s and t, return true if t is an anagram of s, and false otherwise.
 
  
 
-# Example 1:
+Example 1:
 
-# Input: s = "anagram", t = "nagaram"
+Input: s = "anagram", t = "nagaram"
 
-# Output: true
+Output: true
+'''
 
 
 def _count_char(string: str) -> dict:
