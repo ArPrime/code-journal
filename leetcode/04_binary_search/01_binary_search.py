@@ -35,4 +35,4 @@ class Solution:
     def search(nums: List[int], target: int) -> int:
         return binary_search_recursive(nums, target, left=0, right=len(nums) -1)
 
-print(Solution.search(nums=[-1,0,3,5,9,12], target = 9))
+print(Solution.search(nums=[-1,0,3,5,9,12], target = -1))
