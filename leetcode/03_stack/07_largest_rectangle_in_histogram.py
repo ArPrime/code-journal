@@ -51,4 +51,4 @@ class Solution:
 
         return max_area
 
-print(Solution.largestRectangleArea(heights=[2,1,5,6,2,3]))
+print(Solution.largestRectangleArea(heights=[2,2,2,2,2,1]))

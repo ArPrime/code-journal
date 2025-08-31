@@ -44,26 +44,6 @@ Constraints:
 
 
 # using backtrack
-# def generateParenthesis(n):
-#     result = []
-    
-#     def backtrack(current, open_count, close_count):
-#         # 基础情况：生成了完整的括号组合
-#         if len(current) == 2 * n:
-#             result.append(current)
-#             return
-        
-#         # 可以添加左括号的条件：左括号数量 < n
-#         if open_count < n:
-#             backtrack(current + "(", open_count + 1, close_count)
-        
-#         # 可以添加右括号的条件：右括号数量 < 左括号数量
-#         if close_count < open_count:
-#             backtrack(current + ")", open_count, close_count + 1)
-    
-#     backtrack("", 0, 0)
-#     return result
-
 
 from typing import List
 
@@ -82,9 +62,9 @@ class Solution:
         backtrack('', 0, 0)
         return result
 
-# 方式1：通过实例调用
+# 通过实例调用
 sol = Solution()
 print(sol.generateParenthesis(3))
 
-# 方式2：通过类直接调用
+# 通过类直接调用
 print(Solution.generateParenthesis(3))
