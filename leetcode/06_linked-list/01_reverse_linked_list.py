@@ -59,6 +59,20 @@ def print_linked_list(head):
         curr = curr.next
     return ' -> '.join(result) if result else 'Empty'
 
+# class ListNode:
+#     def __init__(self, val=0, next=None):
+#         self.val = val
+#         self.next = next
+    
+#     def __repr__(self):
+#         """Helper method to print the linked list"""
+#         result = []
+#         curr = self
+#         while curr:
+#             result.append(str(curr.val))
+#             curr = curr.next
+#         return " -> ".join(result)
+
 head_1 = create_linked_list(arr=[1, 3, 2])
 print(print_linked_list(head_1))
 reversed_head_1 = Solution.reverseList(head_1)
