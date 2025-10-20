@@ -65,12 +65,12 @@ class Solution:
             max_area = max(max_area, current_area)
 
             if height[i] < height[j]:
-                i +=1
-                while i < j and height[i-1] > height[i]:
+                h = height[i]
+                while i < j and height[i] <= h:
                     i += 1
             else:
-                j -= 1
-                while i < j and height[j+1] > height[j]:
+                h = height[j]
+                while i < j and height[j] <= h:
                     j -= 1
         return max_area
 

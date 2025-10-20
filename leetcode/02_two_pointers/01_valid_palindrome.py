@@ -26,7 +26,6 @@ class Solution:
         for i in range(length//2):
             if formatted_s[i] != formatted_s[j]:
                 return False
-            i +=1
             j -=1
         return True
 
