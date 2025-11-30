@@ -1,0 +1,13 @@
+sort1 uses: Bubble sort
+
+How do you know?: for reversed50000.txt, sort1 and sort2 method uses 5.374s, 2.825s. Since bubble sort is bad at reversed set, so sort1 is bubble sort.
+
+sort2 uses: Merge sort
+
+How do you know?: for random50000.txt, each method uses 5.688s, 0.778s, 2.892s. Since Merge sort is most time efficient and it's a random set of numbers. So sort 2 is merge sort.
+
+sort3 uses: Selection sort
+
+How do you know?: Process of Elimination
+
+

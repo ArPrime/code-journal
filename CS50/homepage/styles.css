@@ -1,0 +1,19 @@
+body {
+    font-size: 16px;
+    margin: 20px;
+}
+
+
+h1 {
+    color: blue;
+}
+
+
+p {
+    line-height: 1.5;
+}
+
+
+nav {
+    background-color: lightgray;
+}

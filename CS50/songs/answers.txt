@@ -1,0 +1,2 @@
+Calculating average values of audio features has key limitations: it causes loss of distribution information and treats all songs with equal weighting, ignoring actual listening frequency.
+Better approach: The listener's preferences form a multi-dimensional distribution. Using a space-filling curve (like a Hilbert curve) to map this high-dimensional data to one dimension could better capture the overall pattern of their music taste than simple averaging.

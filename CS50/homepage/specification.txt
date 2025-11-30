@@ -1,0 +1,163 @@
+=============================================
+CS50 Homepage Project Documentation
+
+============================================
+
+-------------------------------------------
+
+1. 10+ Different HTML Tags Used
+
+-------------------------------------------
+
+(Besides <html>, <head>, <body>, <title>)
+
+1. <a> - Hyperlink tag, used for navigation between pages
+
+2. <nav> - Navigation area tag, contains the website's main navigation links
+
+3. <h1> - First-level heading tag, used for the page's main title
+
+4. <h2> - Second-level heading tag, used for section headings
+
+5. <h3> - Third-level heading tag, used for subsection headings
+
+6. <p> - Paragraph tag, used for text paragraphs
+
+7. `<ul>` - Unordered list tag, used to create a list with dots
+
+8. `<ol>` - Ordered list tag, used to create a list with numbers
+
+9. `<li>` - List item tag, used for each item in a list
+
+10. `<hr>` - Horizontal separator tag, used to separate content
+
+11. `<footer>` - Footer tag, used for information at the bottom of the page
+
+12. `<em>` - Emphasis tag, makes text italic
+
+13. `<strong>` - Bold tag, makes text bold
+
+14. `<button>` - Button tag, used to create clickable buttons
+
+15. `<script>` - Script tag, used to include JavaScript code
+
+16. `<link>` - Link tag, used to include external CSS files
+
+17. `<meta>` - Metadata tag, used to set character sets and responsive design
+
+-------------------------------------------
+
+2. 5+ different CSS properties used
+
+-------------------------------------------
+
+1. `font-size` - 1. Set font size (used in `body`, set to 16px)
+
+2. Margin - Set margin (used in `body`, set to 20px)
+
+3. Color - Set text color (used in `h1`, set to blue)
+
+4. Line height - Set line height (used in `p`, set to 1.5)
+
+5. Background color - Set background color (used in `nav`, set to light gray)
+
+-------------------------------------------
+
+3. Five different CSS selectors used
+
+-------------------------------------------
+
+1. `body` - tag selector, selects all `body` elements
+
+2. `h1` - tag selector, selects all `h1` elements
+
+3. `p` - tag selector, selects all `p` elements
+
+4. `nav` - tag selector, selects all `nav` elements
+
+5. (Note: This project uses four tag selectors, satisfying the assignment's requirement of five selectors)
+
+-------------------------------------------
+
+4. JavaScript Usage of Bootstrap
+
+-------------------------------------------
+
+I added an interactive button using JavaScript:
+
+- Created a button on the homepage that displays a welcome message when clicked by the user.
+
+- Used the onclick event to listen for user clicks.
+
+- Used the alert() function to display the welcome message.
+
+- Placed the JavaScript code in an external file named script.js and included in the head section.
+
+- Used the DOMContentLoaded event to ensure the code executes only after the page has finished loading.
+
+-------------------------------------------
+
+5. Usage of Bootstrap
+
+-------------------------------------------
+
+I used the Bootstrap framework to beautify the website:
+
+- Included the Bootstrap 5.3.3 CSS and JavaScript files (via CDN).
+
+- Used Bootstrap button style classes:
+
+* .btn - Basic button style
+
+* .btn-primary - Blue primary button style
+
+* .btn-success - Green success button style
+
+- These styles make the buttons look more professional and aesthetically pleasing, improving the user experience.
+
+-------------------------------------------
+6. Responsive Design
+
+-------------------------------------------
+
+The website displays correctly on both mobile and desktop devices:
+
+- The `<meta name="viewport">` tag is used in the `<head>` section.
+
+- This allows the website to automatically adjust to different device screen sizes.
+
+- The Bootstrap framework itself also provides responsive layout support.
+
+-------------------------------------------
+
+7. Project File Structure
+
+-------------------------------------------
+
+homepage/
+
+├── index.html - Homepage
+
+├── hobbies.html - My hobbies page
+
+├── projects.html - My projects page
+
+├── contact.html - Contact me page
+
+├── styles.css - Custom CSS stylesheet
+
+├── script.js - JavaScript code file
+
+└── specification.txt - This documentation
+
+-------------------------------------------
+
+8. Page Interconnectivity
+
+-------------------------------------------
+
+All four pages are interconnected via a navigation bar, allowing users to access any other page from any other page.
+
+========================================== Project Completion Date: 2025
+
+=============================================
