@@ -1,0 +1,26 @@
+# .claudeignore
+build/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+*.g.dart
+*.freezed.dart
+*.iconfig.dart
+
+# iOS
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+
+# Android
+android/.gradle/
+android/.idea/
+android/app/build/
+android/local.properties
+
+# 其他常见的不需要的文件
+.DS_Store
+*.lock
+pubspec.lock
