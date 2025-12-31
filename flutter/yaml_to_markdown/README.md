@@ -1,6 +1,7 @@
 # YAML to Markdown Converter
 
 #### Video Demo: https://www.youtube.com/watch?v=Avw-x5Cv7z8
+#### Description: Convert YAML to Markdown format
 
 ## Project Overview
 
