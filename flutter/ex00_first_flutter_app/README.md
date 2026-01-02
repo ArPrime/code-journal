@@ -147,3 +147,36 @@ class MyHomePage extends StatelessWidget {
   }
 }
 ```
+
+# 5 用 Column 让多个组件垂直排列
+```dart
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      home: MyHomePage(),
+    );
+  }
+}
+
+class MyHomePage extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: Column(              // Center 换成 Column
+        children: [              // 用 children 放多个组件
+          Text('第一行文字'),
+          Text('第二行文字'),
+          Text('第三行文字'),
+        ],
+      ),
+    );
+  }
+}
+```
